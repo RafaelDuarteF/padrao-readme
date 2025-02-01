@@ -94,6 +94,21 @@ src/
 2. Adicionar os revisores do time.
 3. Aguardar aprovação 
 
+### **Padrão de PR**
+```markdown
+### **🚀 O que foi feito**
+- Adicionada autenticação via OAuth2
+- Refatorado componente `LoginButton`
+
+### **🔧 Como testar**
+1. Faça login com credenciais válidas.
+2. Verifique a resposta da API para tokens.
+
+### **📋 Checklist**
+- [x] Testes adicionados
+- [x] Sem conflitos com a `main`
+```
+
 ---
 
 ## **🚀 Deployment**  
