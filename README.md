@@ -136,7 +136,7 @@ src/
 ---
 
 ## **🔗 Links Úteis**  
-- **Documentação Técnica**: <link-confluence>  
+- **Documentos (Diagramas, levantamento de requisitos, etc)**: <link-confluence>  
 - **Projeto (JIRA)**: <link-do-board>  
 
 ---
