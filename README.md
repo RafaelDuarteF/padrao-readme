@@ -49,6 +49,43 @@ git clone <link-do-repositorio-interno>
 - Formato: `<tipo>(<escopo>): <mensagem>`. Ex: `feat(login): add autenticação via SSO`.  
 - Tipos permitidos: `feat`, `fix`, `docs`, `refactor`, `chore`.  
 
+## **📁 Estrutura de Pastas (Padrão: Componente + Styled Components)**
+
+**Nota:** Esta estrutura é apenas uma sugestão. Deve ser adaptada conforme o padrão estabelecido no projeto e a tecnologia usada.
+
+```bash
+src/
+├── components/
+│   ├── Button/
+│   │   ├── Button.jsx            # Componente principal
+│   │   ├── Button.styles.js       # Estilizações com Styled Components
+│   │   └── Button.test.js         # Testes do componente (opcional)
+│   ├── Header/
+│   │   ├── Header.jsx
+│   │   └── Header.styles.js
+│   └── Modal/
+│       ├── Modal.jsx
+│       └── Modal.styles.js
+├── pages/
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   ├── Home.styles.js
+│   │   └── Home.test.js
+│   └── Login/
+│       ├── Login.jsx
+│       └── Login.styles.js
+├── hooks/                         
+│   └── useAuth.js                 # Hooks personalizados
+├── services/                      
+│   └── api.js                      # Configurações de API
+├── styles/                         
+│   └── GlobalStyles.js             # Estilos globais com Styled Components
+├── App.jsx                         
+├── index.js                        
+└── routes/                         
+    └── AppRoutes.jsx               # Gerenciamento de rotas
+```
+
 ### **Processo de Code Review**  
 1. Criar MR/PR no GitHub interno.  
 2. Adicionar os revisores do time.
