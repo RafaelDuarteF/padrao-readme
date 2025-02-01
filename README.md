@@ -105,8 +105,9 @@ src/
 2. Verifique a resposta da API para tokens.
 
 ### **📋 Checklist**
-- [x] Testes adicionados
-- [x] Sem conflitos com a `main`
+- [x] Documentação atualizada (se aplicável)  
+- [x] Código revisado e limpo  
+- [x] Sem conflitos com a branch principal 
 ```
 
 ---
