@@ -38,7 +38,6 @@ git clone <link-do-repositorio-interno>
 
 ### **Padrões de Código**  
 - Convenções adotadas (ex: nomeação de branches, identação, estrutura de pastas).  
-- Link para documento interno de boas práticas (se houver).  
 
 ### **Fluxo de Branches**  
 - Exemplo:  
@@ -51,22 +50,18 @@ git clone <link-do-repositorio-interno>
 - Tipos permitidos: `feat`, `fix`, `docs`, `refactor`, `chore`.  
 
 ### **Processo de Code Review**  
-1. Criar MR/PR no GitLab/GitHub interno.  
-2. Adicionar revisores do time.  
-3. Aprovação mínima de 2 pessoas antes do merge.  
+1. Criar MR/PR no GitHub interno.  
+2. Adicionar os revisores do time.
+3. Aguardar aprovação 
 
 ---
 
 ## **🚀 Deployment**  
 
 ### **Ambientes**  
-- **Homologação**: <link-para-acesso>  
-- **Produção**: <link-para-acesso>  
-
-### **Pipeline (CI/CD)**  
-- Descrição resumida dos estágios (ex: build, testes, deploy automático em homologação).  
-- Gatilhos: Merge em `main` deploya em produção.  
-
+- **Homologação**: link-para-acesso
+- **Produção**: link-para-acesso
+  
 ---
 
 ## **⚠️ Troubleshooting**  
@@ -86,16 +81,15 @@ git clone <link-do-repositorio-interno>
 
 ## **🔗 Links Úteis**  
 - **Documentação Técnica**: <link-confluence>  
-- **Monitoramento**: <link-kibana-ou-similar>  
-- **Tickets (JIRA)**: <link-do-board>  
+- **Projeto (JIRA)**: <link-do-board>  
 
 ---
 
 ## **👥 Contato do Time**  
-| Nome       | Função               | Email/Slack        |  
-|------------|----------------------|--------------------|  
-| João Silva | Tech Lead            | @joao.slack        |  
-| Maria Souza| DevOps               | @maria.slack       |  
+| Nome          | Função                  | Email                   |  
+|---------------|-------------------------|-------------------------|  
+| Rafael Duarte | Tech Lead               | rafa.duartedf@gmail.com |  
+| Dev2          | Desenvolvedor Front-End | dev2@gmail.com          |  
 
 
 **Instruções de Uso**:  
