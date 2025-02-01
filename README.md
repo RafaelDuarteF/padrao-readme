@@ -49,7 +49,7 @@ git clone <link-do-repositorio-interno>
 - Formato: `<tipo>(<escopo>): <mensagem>`. Ex: `feat(login): add autenticação via SSO`.  
 - Tipos permitidos: `feat`, `fix`, `docs`, `refactor`, `chore`.  
 
-### ** Estrutura de Pastas (Exemplo - React: Componente + Styled Components)**
+### **Estrutura de Pastas (Exemplo - React: Componente + Styled Components)**
 
 **Nota:** Esta estrutura é apenas uma sugestão. Deve ser adaptada conforme o padrão estabelecido no projeto e a tecnologia usada.
 
